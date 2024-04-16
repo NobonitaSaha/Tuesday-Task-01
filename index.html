@@ -12,6 +12,267 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- ====================== Cookie PopUp Start ========================== -->
+		<div class="cookie-overlay show-overlay"></div>
+		<div class="cookie-overlay-2 show-overlay-2"></div>
+		<div class="cookie-popup" id="cookiePopup">
+			<div class="cookie-png">
+				<img src="img/cookie.webp" alt="cookie.webp">
+			</div>
+			<div class="cookie-description">
+				<div class="cookie-text">
+					<h3>Cookie Policy</h3>
+					<p>We use cookies to personalize content, customize and measure ads, and provide a better user experience. By clicking accept, you agree to this as described in our cookie policy. </p>
+				</div>
+				<div class="cookie-btn">
+					<div class="cookie-double-btn">
+						<button onclick="acceptCookies()" class="cookie-accept">No thanks</button>
+						<button onclick="acceptCookies()" class="cookie-cancel">Accept</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+      <style>
+         /* ---------------------------------- 
+            Cookie Popup CSS Start 
+         ------------------------------------- */
+         .cookie-popup {
+            display: none;
+            position: fixed;
+            left: 0;
+            right: 0;
+            background-color: #fbfbfbb8;
+            padding: 20px;
+            top: 0px;
+            z-index: 1000000;
+            color: #3b3e4a;
+            border-radius: 8px;
+            box-shadow: 0px 5px 6px 1px rgb(0 0 0 / 23%);
+            transform: translateY(120px);
+         }
+
+         .cookie-png > img {
+            margin-bottom: 25px;
+            text-align: center;
+            width: auto;
+         }
+
+         .cookie-text > h3 {
+            color: #2e2e2e;
+            font-size: 32px;
+            font-weight: 600;
+            margin-top: 4px;
+			font-family: 'Alegreya Sans', sans-serif;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+         }
+
+         .cookie-text > p {
+            font-size: 18px;
+            line-height: 30px;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            margin: 25px 10px;
+            color: #000000;
+        }
+
+         .cookie-popup.show {
+            display: block;
+            max-width: 732px;
+            margin: 0 auto;
+            text-align: center;
+         }
+
+         .cookie-double-btn button {
+            font-size: 18px;
+            padding: 8px 34px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+            border: 2px solid #1171ed;
+            color: #2b2b2b;
+            line-height: 1.7 !important;
+            outline: 0px;
+            width: 36%;
+            margin: 20px 10px;
+			font-family: 'Alegreya Sans', sans-serif;
+            letter-spacing: 0.4px;
+         }
+
+         .cookie-double-btn button.cookie-cancel {
+            background: #1171ed;
+            color: #ffffff;
+            border: none;
+         }
+
+         button.cookie-accept:hover {
+            background: #1171ed;
+            color: #ffffff;
+         }
+
+         button.cookie-cancel:hover {
+            background: #ffffff;
+            color: #2b2b2b;
+            border: 2px solid #1171ed;
+         }
+
+         .cookie-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('./img/desktop-overlay.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 999999;
+            display: none;
+         }
+
+         .cookie-overlay-2 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 158vh;
+            background-image: url('./img/mobile-overlay.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 999999;
+            display: none;
+            filter: blur(6px);
+            -webkit-filter: blur(6px);
+         }
+
+         .show-overlay {
+            display: block;
+         }
+
+         .show-overlay-2 {
+            display: block;
+         }
+
+
+         @media only screen and (max-width: 600px) and (min-width: 320px) {
+            .cookie-popup.show {
+                transform: translateY(30px);
+                margin: 0px;
+                background-color: rgb(26 26 26 / 40%);
+            }
+
+            .cookie-double-btn button {
+               width: 100%;
+               margin: 10px 0px;
+            }
+
+            .cookie-png > img {
+               margin-bottom: 15px;
+               width: 80px;
+            }
+
+            .cookie-overlay{
+               display: none;
+            }
+
+            .cookie-text > h3 {
+                color: #ffffff;
+            }
+
+            .cookie-text > p {
+                color: #ffffff;
+            }
+         }
+
+         @media only screen and (max-width: 1024px) and (min-width: 768px) {
+            .cookie-popup {
+               tranrgb(255, 255, 255)translateY(70px);
+            }
+
+            .cookie-overlay-2{
+               display: none;
+            }
+         }
+
+         @media only screen and (min-width: 1025px) {
+            .cookie-popup {
+               transform: translateY(80px);
+            }
+            
+            .cookie-overlay-2 {
+               display: none;
+            }
+         }
+
+         /* ------------------------------------ 
+            Cookie Popup CSS End 
+         --------------------------------------- */
+      </style>
+
+
+		<script>
+         // ------------------- Cookie Popup JS Start -----------------------
+			document.addEventListener("DOMContentLoaded", function () {
+				if (!getCookie("acceptedCookies")) {
+					// Load background image of the popup first
+					document.querySelector(".cookie-overlay").classList.add("show-overlay");
+					document.querySelector(".cookie-overlay-2").classList.add("show-overlay-2");
+					document.getElementById("cookiePopup").classList.add("show");
+				} else {
+					// If cookies have already been accepted, remove the popup and overlay
+					document.querySelector(".cookie-overlay").classList.remove("show-overlay");
+					document.querySelector(".cookie-overlay-2").classList.remove("show-overlay-2");
+					document.getElementById("cookiePopup").classList.remove("show");
+				}
+			});
+		
+			function acceptCookies() {
+				document.getElementById("cookiePopup").classList.remove("show");
+				document.querySelector(".cookie-overlay").classList.remove("show-overlay");
+				document.querySelector(".cookie-overlay-2").classList.remove("show-overlay-2");
+				setCookie("acceptedCookies", true, 30);
+		
+				// Load content after accepting cookies
+				setTimeout(function () {
+					console.log("Content uploaded after 3 seconds");
+					// Add your code here to load website images and content
+				}, 3000);
+			}
+		
+			function setCookie(name, value, days) {
+				var expires = "";
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+					expires = "; expires=" + date.toUTCString();
+				}
+				document.cookie = name + "=" + (value || "") + expires + "; path=/";
+			}
+		
+			function getCookie(name) {
+				var nameEQ = name + "=";
+				var ca = document.cookie.split(';');
+				for (var i = 0; i < ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+				}
+				return null;
+			}
+         // ------------------- Cookie Popup JS End -----------------------
+		</script>
+		<!-- ==================== Cookie PopUp End ============================== -->
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark">
