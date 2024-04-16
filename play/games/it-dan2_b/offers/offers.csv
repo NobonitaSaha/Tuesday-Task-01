@@ -1,0 +1,80 @@
+enabled,name,url,image,bonus,forwardParams
+0,Instaspin,https://track.rdtrk.xyz/click/100,{baseUrl}/images/logos/instaspin1.png,"Bonus fino a <strong>1.000&euro;</strong>+100 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2649&c=7575&s1=DIRECT&s2=123456789&s3=instaspin,
+1,"Quick Win",https://track.rdtrk.xyz/click/95,{baseUrl}/images/logos/quickwin.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p1 GEPC 65",https://mmltrk.com/?a=226&oc=2620&c=7535&s1=DIRECT&s2=123456789&s3=quickwin,
+1,Bankonbet,https://track.rdtrk.xyz/click/99,{baseUrl}/images/logos/bankonbet.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p2 GEPC 60",https://mmltrk.com/?a=226&oc=2631&c=7565&s1={sub2}&s2={clickid}&s3=bankonbet,
+1,"888 Casino",https://track.rdtrk.xyz/click/1,{baseUrl}/images/logos/888casino.png,"20€ gratis + fino a <strong>1.000&euro;</strong>+ 50 giri gratuiti",clickid,CPA,https://mmltrk.com/?a=226&oc=503&c=4567&s1=DIRECT&s2=123456789&s3=888casino,
+1,Spinanga,https://track.rdtrk.xyz/click/93,{baseUrl}/images/logos/spinanga.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,CPA,https://mmltrk.com/?a=226&oc=2582&c=7479&s1=DIRECT&s2=123456789&s3=spinanga,
+1,RoosterBet,https://track.rdtrk.xyz/click/91,{baseUrl}/images/logos/roosterbet.png,"100% fino a <strong>1.000&euro;</strong> +100 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2575&c=7470&s1=DIRECT&s2=123456789&s3=rooster,
+1,Lucky7,https://track.rdtrk.xyz/click/98,{baseUrl}/images/logos/lucky7.png,"Bonus fino a <strong>2.000&euro;</strong>+200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2609&c=7549&s1=DIRECT&s2=123456789&s3=lucky7,
+1,"Red Dice",https://track.rdtrk.xyz/click/96,{baseUrl}/images/logos/reddice.png,"200% fino a <strong>1.000&euro;</strong> +10% Cashback",clickid,,https://mmltrk.com/?a=226&oc=2611&c=7542&s1=DIRECT&s2=123456789&s3=reddice,
+0,"Slots Palace",https://track.rdtrk.xyz/click/97,{baseUrl}/images/logos/slotspalace.png,"200% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p2 GEPC 65",https://mmltrk.com/?a=226&oc=2626&c=7544&s1=DIRECT&s2=123456789&s3=spinpalaceIT,
+0,Excitewin,https://track.rdtrk.xyz/click/56,{baseUrl}/images/logos/excitewin.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2189&c=6845&s1=DIRECT&s2=123456789&s3=excitewin,
+0,Frumzi,https://track.rdtrk.xyz/click/83,{baseUrl}/images/logos/frumzi.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2522&c=7380&s1=DIRECT&s2=123456789&s3=frumzi,
+0,"N1 Bet",https://track.rdtrk.xyz/click/94,{baseUrl}/images/logos/n1betcasino1.png,"100% fino a <strong>1.000&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2584&c=7481&s1=DIRECT&s2=123456789&s3=n1bet,
+0,joker8,https://track.rdtrk.xyz/click/92,{baseUrl}/images/logos/joker8.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2581&c=7477&s1=DIRECT&s2=123456789&s3=joker8,
+0,"My Empire",https://track.rdtrk.xyz/click/90,{baseUrl}/images/logos/empire.png,"Bonus fino a <strong>1000&euro;</strong>+400 giri gratuiti",clickid,"p1 GEPC 65",https://mmltrk.com/?a=226&oc=2563&c=7437&s1=DIRECT&s2=123456789&s3=myempire,
+0,Playzilla,https://track.rdtrk.xyz/click/71,{baseUrl}/images/logos/playzilla.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2088&c=7219&s1=,
+0,Casinia,https://track.rdtrk.xyz/click/84,{baseUrl}/images/logos/casinia.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p1 GEPC 65",https://mmltrk.com/?a=226&oc=2540&c=7401&s1={sub2}&s2={clickid}&s3=casiniaIT,
+0,"Cobra Casino",https://track.rdtrk.xyz/click/85,{baseUrl}/images/logos/cobra.png,"100% fino a <strong>500&euro;</strong> +250 giri gratuiti",clickid,"P2 GEPC 60",https://mmltrk.com/?a=226&oc=2545&c=7416&s1=,
+0,Polestar,https://track.rdtrk.xyz/click/82,{baseUrl}/images/logos/polestar.png,"Bonus fino a <strong>1000&euro;</strong>",clickid,"p1 GEPC 65",https://mmltrk.com/?a=226&oc=2521&c=7379&s1=DIRECT&s2=123456789&s3=polestar,
+0,Verde,https://track.rdtrk.xyz/click/81,{baseUrl}/images/logos/verde.png,"Bonus fino a <strong>1.200&euro;</strong> +220 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2519&c=7377&s1=,
+0,Cashwin,https://track.rdtrk.xyz/click/68,{baseUrl}/images/logos/cashwin.png,"100% fino a <strong>1.000&euro;</strong> +50 giri gratuiti",clickid,"p2 GEPC 50",https://mmltrk.com/?a=226&oc=2391&c=7180&s1=DIRECT&s2=123456789&s3=cashwin,
+0,Amunra,https://track.rdtrk.xyz/click/77,{baseUrl}/images/logos/amunra.png,"100% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid,"p3 GEPC 55",https://mmltrk.com/?a=226&oc=2149&c=6958&s1=DIRECT&s2=123456789&s3=amunra,
+0,Greatwin,https://track.rdtrk.xyz/click/75,{baseUrl}/images/logos/greatwin.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p2 GEPC 57",https://mmltrk.com/?a=226&oc=2243&c=6956&s1=DIRECT&s2=123456789&s3=greatwin
+0,"Oh My Spins",https://track.rdtrk.xyz/click/76,{baseUrl}/images/logos/ohmyspins.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p3 GEPC 55",https://mmltrk.com/?a=226&oc=1967&c=6407&s1={sub2}&s2={clickid}&s3=ohmyspins
+0,"Neon 54",https://track.rdtrk.xyz/click/50,{baseUrl}/images/logos/neon54a.png,"100% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2017&c=6451&s1={sub2}&s2={clickid}&s3=neon54
+0,Cazimbo,https://track.rdtrk.xyz/click/73,{baseUrl}/images/logos/cazimbo1.png,"100% fino a <strong>500&euro;</strong>",clickid,,https://mmltrk.com/?a=226&oc=2450&c=7282&s1=DIRECT&s2=123456789&s3=cazimobo
+0,Libra,https://track.rdtrk.xyz/click/79,{baseUrl}/images/logos/librabet.png,"Bonus fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"p1 GEPC 64",https://mmltrk.com/?a=226&oc=1601&c=5534&s1=DIRECT&s2=123456789&s3=libra
+0,Silverplay,https://track.rdtrk.xyz/click/38,{baseUrl}/images/logos/silverplay.png,"Bonus fino a <strong>1000&euro;</strong>",clickid,,
+0,"Bet Riot",https://track.rdtrk.xyz/click/72,{baseUrl}/images/logos/betriot.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2415&c=7242&s1=
+0,Nomini,https://track.rdtrk.xyz/click/62,{baseUrl}/images/logos/nomini.png,"Bonus fino a <strong>700&euro;</strong> +50 giri gratuiti",clickid,"p3 GEPC 45",https://mmltrk.com/?a=226&oc=1677&c=5757&s1=DIRECT&s2=123456789&s3=nomini
+0,"Quick Win",https://track.rdtrk.xyz/click/63,{baseUrl}/images/logos/quickwin.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,"CPA ONLY",https://mmltrk.com/?a=226&oc=2313&c=7075&s1=DIRECT&s2=123456789&s3=quickwinitish
+0,Gomblingo,https://track.rdtrk.xyz/click/69,{baseUrl}/images/logos/gomblingo.png,"100% fino a <strong>1.000&euro;</strong>",clickid,,https://mmltrk.com/?a=226&oc=2329&c=7182&s1=DIRECT&s2=123456789&s3=gomblingo
+0,"Rolling Slots",https://track.rdtrk.xyz/click/54,{baseUrl}/images/logos/rollingslots.png,"200% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2111&c=6672&s1=DIRECT&s2=123456789&s3=rollingslotsit
+0,"Lucky Heroes",https://track.rdtrk.xyz/click/66,{baseUrl}/images/logos/luckyheroes.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2347&c=7134&s1=DIRECT&s2=123456789&s3=luckyheroes
+0,"Bet on Red",http://httpbin.org/anything/placeholder,{baseUrl}/images/logos/betonred.png,"Bonus fino a <strong>450&euro;</strong> +250 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2342&c=7116&s1=DIRECT&s2=123456789&s3=betonred
+0,Hellspin,https://track.rdtrk.xyz/click/52,{baseUrl}/images/logos/hellspin.png,"Bonus fino a <strong>400&euro;</strong> +150 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=2058&c=6557&s1={sub2}&s2={clickid}&s3=hellspinsit
+0,"Nine Casino",https://track.rdtrk.xyz/click/53,{baseUrl}/images/logos/nine.png,"Bonus fino a <strong>450&euro;</strong> +250 giri gratuiti",clickid,,https://mmltrk.com/?a=226&oc=1997&c=6595&s1={sub2}&s2={clickid}&s3=nineit
+0,Greatwin,https://track.rdtrk.xyz/click/49,{baseUrl}/images/logos/greatwin.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,Powbet,https://track.rdtrk.xyz/click/34,{baseUrl}/images/logos/powbet.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid,
+0,"5 Gringos",https://track.rdtrk.xyz/click/26,{baseUrl}/images/logos/5gringosa.png,"100% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid
+0,Casinoly,https://track.rdtrk.xyz/click/43,{baseUrl}/images/logos/casinoly.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"7 Signs",https://track.rdtrk.xyz/click/35,{baseUrl}/images/logos/7signs.png,"Bonus fino a <strong>700&euro;</strong> +50 giri gratuiti",clickid
+0,"1Bet Casino",https://track.rdtrk.xyz/click/27,{baseUrl}/images/logos/1bet.png,"100% fino a <strong>500&euro;</strong>",clickid
+0,Jackpoty,https://track.rdtrk.xyz/click/51,{baseUrl}/images/logos/jackpoty.png,"100% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid
+0,"Ma Chance",https://track.rdtrk.xyz/click/47,{baseUrl}/images/logos/machance.png,"100% fino a <strong>300&euro;</strong>",clickid
+0,"Casino Midas",https://track.rdtrk.xyz/click/12,{baseUrl}/images/logos/midas.png,"200% fino a <strong>555&euro;</strong> +100 giri gratuiti",clickid
+0,boomerang,https://track.rdtrk.xyz/click/46,{baseUrl}/images/logos/boomerang.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,Rabona,https://track.rdtrk.xyz/click/45,{baseUrl}/images/logos/rabona.png,"Bonus fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"Zet Casino",https://track.rdtrk.xyz/click/42,{baseUrl}/images/logos/zetcasino.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,Sportaza,https://track.rdtrk.xyz/click/39,{baseUrl}/images/logos/sportaza.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,Fezbet,https://track.rdtrk.xyz/click/10,{baseUrl}/images/logos/fezbet.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"Zet Casino",https://track.rdtrk.xyz/click/8,{baseUrl}/images/logos/zetcasino.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"888 Casino",https://track.rdtrk.xyz/click/1,{baseUrl}/images/logos/888casino.png,"125% fino a <strong>500&euro;</strong>",clickid
+0,Fezbet,https://track.rdtrk.xyz/click/41,{baseUrl}/images/logos/fezbet.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,Bizzo,https://track.rdtrk.xyz/click/37,{baseUrl}/images/logos/bizzo.png,"Bonus fino a <strong>400&euro;</strong> +100 Giocate Gratis",clickid
+0,"Classy Slots",https://track.rdtrk.xyz/click/36,{baseUrl}/images/logos/classyslots.png,"400% fino a <strong>800&euro;</strong>",clickid
+0,"William Hill",https://track.rdtrk.xyz/click/33,{baseUrl}/images/logos/williamhill.png,"Bonus fino a <strong>1.000&euro;</strong>",clickid
+0,Pokerstars,https://track.rdtrk.xyz/click/31,{baseUrl}/images/logos/pokerstars.png,"BONUS CASINÒ ISTANTANEO DI <strong>€25</strong>+500 giri gratuiti",clickid
+0,"Spin Samba",https://track.rdtrk.xyz/click/15,{baseUrl}/images/logos/spinsamba.png,"300% fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid
+0,"Jack Million",https://track.rdtrk.xyz/click/2,{baseUrl}/images/logos/jackmillion.png,"200% fino a <strong>777&euro;</strong>",clickid
+0,"Zodiac Bet",https://track.rdtrk.xyz/click/28,{baseUrl}/images/logos/zodiac.png,"Bonus fino a <strong>1.000&euro;</strong>",clickid
+0,"Wild Tornado",https://track.rdtrk.xyz/click/29,{baseUrl}/images/logos/wildtornado.png,"Bonus fino a <strong>1.000&euro;</strong>",clickid
+0,LeoVegas,https://track.rdtrk.xyz/click/14,{baseUrl}/images/logos/leovegas.png,"Bonus fino a <strong>400&euro;</strong>",clickid
+0,"Netbet Casino",https://track.rdtrk.xyz/click/16,{baseUrl}/images/logos/netbet.png,"100% fino a <strong>200&euro;</strong> +100 giri gratuiti",clickid
+0,Fireslots,https://track.rdtrk.xyz/click/25,{baseUrl}/images/logos/fireslots.png,"100% fino a <strong>500&euro;</strong> +20 giri gratuiti",clickid
+0,"All Wins",https://track.rdtrk.xyz/click/24,{baseUrl}/images/logos/allwins.png,"250% fino a <strong>1.500&euro;</strong> +25 giri gratuiti",clickid
+0,"Casino Empire",https://track.rdtrk.xyz/click/23,{baseUrl}/images/logos/casinoempire.png,"200% fino a <strong>2.000&euro;</strong>",clickid
+0,Campobet,https://track.rdtrk.xyz/click/22,{baseUrl}/images/logos/campobet.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"Loki Casino",https://track.rdtrk.xyz/click/19,{baseUrl}/images/logos/loki.png,"Bonus fino a <strong>1.200&euro;</strong> +100 giri gratuiti",clickid
+0,"Golden Star",https://track.rdtrk.xyz/click/20,{baseUrl}/images/logos/goldenstar.png,"Bonus fino a <strong>500&euro;</strong> +100 giri gratuiti",clickid
+0,"Guns Bet",https://track.rdtrk.xyz/click/18,{baseUrl}/images/logos/gunsbet.png,"Bonus fino a <strong>300&euro;</strong> +100 giri gratuiti",clickid
+0,Bet24Star,https://track.rdtrk.xyz/click/17,{baseUrl}/images/logos/bet24star.png,"100% fino a <strong>3.500&euro;</strong>",clickid
+0,Wazamba,https://track.rdtrk.xyz/click/13,{baseUrl}/images/logos/wazamba.png,"100% fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid
+0,"Wins Park",https://track.rdtrk.xyz/click/11,{baseUrl}/images/logos/winspark.png,"5€ Gratis <strong>100%</strong> 1° Bonus Di Deposito",clickid
+0,"7bit Casino",https://track.rdtrk.xyz/click/9,{baseUrl}/images/logos/7bit.png,"Bonus fino a <strong>400&euro;</strong>+200 giri gratuiti",clickid
+0,Casinomia,https://track.rdtrk.xyz/click/6,{baseUrl}/images/logos/casinomia.png,"100% fino a <strong>1000&euro;</strong> +300 giri gratuiti",clickid
+0,"22 Bet Casino",https://track.rdtrk.xyz/click/7,{baseUrl}/images/logos/22bet.png,"Bonus fino a <strong>300&euro;</strong>",clickid
+0,Playamo,https://track.rdtrk.xyz/click/3,{baseUrl}/images/logos/playamo.png,"Bonus fino a <strong>300&euro;</strong>+150 giri gratuiti",clickid
+0,"Woo Casino",https://track.rdtrk.xyz/click/4,{baseUrl}/images/logos/woocasino.png,"Bonus fino a <strong>200&euro;</strong> +200 giri gratuiti",clickid
+0,Rabona,https://track.rdtrk.xyz/click/21,{baseUrl}/images/logos/rabona.png,"Bonus fino a <strong>500&euro;</strong> +200 giri gratuiti",clickid

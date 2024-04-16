@@ -1,0 +1,525 @@
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #21252a;
+}
+
+#wrap {
+    background-size: contain;
+    background: #000 url('../images/bg.webp') no-repeat fixed center top;
+}
+
+.no-webp #wrap {
+    background-image: url('../images/bg.jpg');
+}
+
+#wrap-inner {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#top {
+    background: url('../images/bg-mobile.webp') no-repeat center center;
+    background-size: cover;
+    padding: 10px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.no-webp #top {
+    background-image: url('../images/bg-mobile.jpg');
+}
+
+#top .logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+
+#intro {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#intro .best > span,
+#intro .updated > span {
+    color: #F8CD4F
+}
+
+#intro .best {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#intro .updated {
+    margin-top: 3px;
+    font-size: 1.2em;
+}
+
+#intro-2 {
+    display: none;
+}
+
+#badges {
+    padding: 15px 0 0 0;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+#badges > li {
+    display: flex;
+    align-items: center;
+}
+
+#badges > li:not(:first-child) {
+    margin-left: 10px;
+}
+
+#badges i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+#badges i.badge-secure {
+    background-image: url('../images/tick-legal.png');
+}
+
+#badges i.badge-flag {
+    background-image: url('../images/flag-italy.png');
+}
+
+#badges i.badge-wallet {
+    background-image: url('../images/tick-wallet.png');
+}
+
+#badges span {
+    padding-left: 5px;
+}
+
+#offers {
+    color: #eee;
+    background-color: #000;
+}
+
+#offers ul.ofr-wrap {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#offers ul.ofr-wrap > li.ofr-head {
+    display: none;
+}
+
+#offers ul.ofr-wrap > li.ofr-body {
+    margin-bottom: 20px;
+    padding: 15px 0;
+    background: linear-gradient(90deg, #222428 50%, #19171d 50%);
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+}
+
+#offers .ofr-badge {
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(30, 208, 0, 1) 0%, rgba(19, 128, 0, 1) 100%);
+    padding: 0 12px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.7em;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+#offers .ofr-pos {
+    display: none;
+    align-self: center;
+}
+
+#offers .ofr-logo {
+    flex-basis: 50%;
+    padding: 15px 10px 0 10px;
+}
+
+#offers .ofr-logo a {
+    display: inline-block;
+}
+
+#offers .ofr-logo img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#offers .ofr-bonus {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#offers .ofr-bonus .welcome {
+    font-size: 0.7em;
+}
+
+#offers .ofr-bonus .bonus {
+    display: block;
+    margin-top: 6px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#offers .ofr-bonus .bonus strong {
+    font-size: 28px;
+    display: block;
+}
+
+#offers .ofr-bonus .bonus:hover {
+    text-decoration: underline;
+}
+
+#offers .ofr-stars {
+    align-self: flex-end;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+#offers .ofr-stars ul.stars {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url('../images/star-grey.png') repeat;
+    background-size: contain;
+    width: 80px;
+    height: 16px;
+}
+
+#offers .ofr-stars ul.stars li {
+    background: url('../images/star.png') no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+}
+
+#offers .ofr-stars ul.stars li.half {
+    width: 9px;
+}
+
+#offers .ofr-stars .votes {
+    font-size: 0.7em;
+}
+
+#offers .ofr-rating {
+    align-self: flex-end;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+#offers .ofr-rating .rating {
+    display: block;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+#offers .ofr-rating .our-score {
+    font-size: 0.7em;
+}
+
+#offers .ofr-cta {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#offers .ofr-cta a.btn {
+    display: block;
+    text-decoration: none;
+    background: linear-gradient(180deg, rgba(48, 162, 201, 1) 0%, rgba(63, 119, 179, 1) 100%);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-radius: 25px;
+    color: #fff;
+}
+
+#offers .ofr-cta a.btn:hover {
+    background: #f8cd4f;
+}
+
+#offers .ofr-cta a.link {
+    display: none;
+}
+
+#about {
+    padding: 0 10px;
+}
+
+#footer {
+    padding: 60px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer .logo {
+    display: block;
+    height: 40px;
+}
+
+#footer .copyright-logo .copyright {
+    margin-top: 5px;
+}
+
+#footer ul.plus18 {
+    list-style: none;
+    display: flex;
+}
+
+#footer ul.plus18 > li:not(:first-child) {
+    margin-left: 10px;
+}
+
+.logo {
+    background-size: contain;
+    background-image: url('../images/logo.webp');
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.no-webp .logo {
+    background-image: url('../images/logo.png');
+}
+
+@media (min-width: 760px) {
+    #wrap-inner {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    #top {
+        background-image: none;
+        display: block;
+        padding: 20px 0;
+    }
+
+    #top .logo {
+        margin: 0;
+        width: 200px;
+    }
+
+    #intro {
+        text-align: left;
+        font-size: 1.6em;
+    }
+
+    #intro .updated {
+        margin-top: 0;
+    }
+
+    #intro-2 {
+        padding-top: 10px;
+        line-height: 1.4;
+        display: block;
+    }
+
+    #badges {
+        padding-top: 20px;
+        font-size: 1em;
+    }
+
+    #badges > li:not(:first-child) {
+        margin-left: 20px;
+    }
+
+    #offers {
+        color: #19171d;
+        background-color: transparent;
+    }
+
+    #offers ul.ofr-wrap > li > div:not(.ofr-badge) {
+        position: relative;
+        padding: 30px 20px;
+    }
+
+    #offers ul.ofr-wrap > li.ofr-head {
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        margin-bottom: 0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        color: #fff;
+        text-align: center;
+    }
+
+    #offers ul.ofr-wrap > li.ofr-head > div {
+        background-color: transparent;
+        align-self: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: .9em;
+        font-weight: bold;
+    }
+
+    #offers ul.ofr-wrap > li.ofr-body {
+        flex-flow: nowrap;
+        background: inherit;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+    }
+
+    #offers .ofr-wrap li.ofr-body:hover {
+        background-color: #f5f5f5;
+    }
+
+    #offers ul.ofr-wrap > li.ofr-body > div:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 50px;
+        background: #eee;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #offers ul.ofr-wrap > li.ofr-body > .ofr-badge:after,
+    #offers ul.ofr-wrap > li.ofr-body > .ofr-pos:after,
+    #offers ul.ofr-wrap > li.ofr-body > .ofr-cta:after {
+        display: none;
+    }
+
+    #offers .ofr-badge {
+        color: #fff;
+        background: linear-gradient(180deg, rgba(48, 162, 201, 1) 0%, rgba(63, 119, 179, 1) 100%);
+    }
+
+    #offers .ofr-pos {
+        padding-top: 16px;
+        align-self: stretch;
+        /*height: 110px;*/
+        flex-basis: 1%;
+        background-color: #f1f3f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    #offers .ofr-pos .pos {
+        text-align: center;
+    }
+
+    #offers .ofr-wrap li.ofr-body:hover .ofr-pos {
+        background-color: #f8cd4f;
+    }
+
+    #offers .ofr-logo {
+        flex-basis: 25%;
+    }
+
+    #offers .ofr-bonus {
+        font-size: 1.1em;
+        flex-basis: 20%;
+    }
+
+    #offers .ofr-bonus .bonus {
+        color: inherit;
+    }
+
+    #offers .ofr-stars {
+        flex-basis: 20%;
+        align-self: center;
+    }
+
+    #offers .ofr-stars ul.stars {
+        width: 120px;
+        height: 24px;
+    }
+
+    #offers .ofr-stars ul.stars li {
+        width: 24px;
+        height: 24px;
+    }
+
+    #offers .ofr-stars ul.stars li.half {
+        width: 12px;
+    }
+
+    #offers .ofr-stars .votes {
+        margin-top: 6px;
+    }
+
+    #offers .ofr-rating {
+        flex-basis: 10%;
+        align-self: center;
+    }
+
+    #offers .ofr-rating .rating {
+        color: inherit;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    #offers .ofr-rating .our-score {
+        display: none;
+    }
+
+    #offers .ofr-cta {
+        flex-basis: 24%;
+    }
+
+    #offers .ofr-cta a.btn {
+        border-radius: 12px;
+        background: linear-gradient(180deg, rgba(30, 208, 0, 1) 0%, rgba(19, 128, 0, 1) 100%);
+    }
+
+    #offers .ofr-cta a.link {
+        display: inline-block;
+        color: #0c1415;
+        margin-top: 10px;
+        font-size: 0.75em;
+    }
+
+    #about {
+        line-height: 1.4;
+        padding: 0;
+    }
+
+    #footer {
+        padding: 60px 0 20px 0;
+    }
+}
